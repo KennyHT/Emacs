@@ -17,9 +17,10 @@
 ;;(global-linum-mode t)
 ;;(column-number-mode t)
 
-(setq indent-tabs-mode t)
-(setq default-tab-width 4)
-(setq tab-width 4)
+;; Using whitespace to replace tab
+(setq-default indent-tabs-mode nil) 
+;(setq default-tab-width 4)
+;(setq tab-width 4)
 
 ;;support copy and paste
 (setq kmacro-call-mouse-event nil)
